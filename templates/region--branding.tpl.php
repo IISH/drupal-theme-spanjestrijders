@@ -3,13 +3,13 @@
     <?php if ($linked_logo_img || $site_name || $site_slogan): ?>
     <div class="branding-data clearfix">
       <?php if ($linked_logo_img): ?>
-      <div class="logo-img grid-3">
+      <div class="logo-img grid-6">
         <?php print $linked_logo_img; ?>
       </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
       <?php $class = $site_name_hidden && $site_slogan_hidden ? ' element-invisible' : ''; ?>
-      <hgroup class="site-name-slogan grid-8<?php print $class; ?>">
+      <hgroup class="site-name-slogan grid-3<?php print $class; ?>">
         <?php $class = $site_name_hidden && !$site_slogan_hidden ? ' element-invisible' : ''; ?>
         <?php if ($is_front): ?>
         <h1 class="site-name<?php print $class; ?>"><?php print $linked_site_name; ?></h1>
