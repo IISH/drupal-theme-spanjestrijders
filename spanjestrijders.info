@@ -5,6 +5,7 @@ engine = phptemplate
 screenshot = screenshot.png
 base theme = omega
 version = "7.x-1.0"
+; added by gcu
 stylesheets[all][] = styles.css
 
 ; REQUIRED CORE REGIONS

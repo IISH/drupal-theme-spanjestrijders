@@ -120,7 +120,15 @@ function print_node_view($node) {
 */
 
 
-
+/**
+ * Add stylesheet
+ */
+// added by gcu
+function yourtheme_preprocess_html(&$variables) {
+	drupal_add_css(
+		'https://spanjestrijders.nl/sites/all/themes/spanjestrijders/css/styles.css', array('type' => 'external')
+	);
+}
 
 /*
  * Allow HTML in pager link.
