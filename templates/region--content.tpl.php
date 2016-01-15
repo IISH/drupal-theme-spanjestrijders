@@ -4,7 +4,7 @@
     <?php if ($title): ?>
     <?php if ($title_hidden): ?><div class="element-invisible"><?php endif; ?>
     <?php print render($title_prefix); ?>
-    <h1 class="title" id="page-title" lang="<?php print $lang; ?>" dir="<?php print $dir; ?>"><?php print $title; ?></h1>
+    <h2 class="title" id="page-title" lang="<?php print $lang; ?>" dir="<?php print $dir; ?>"><?php print $title; ?></h2>
     <?php print render($title_suffix); ?>
     <?php if ($title_hidden): ?></div><?php endif; ?>
     <?php endif; ?>

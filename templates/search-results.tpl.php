@@ -28,7 +28,7 @@
   </ol>
   <?php print $pager; ?>
 <?php else : ?>
-  <h2><?php print t('Your search yielded no results.');?></h2>
-  <p>You may also search the <a href="http://search.socialhistory.org">IISH catalogue</a> to find books, periodicals, archives, and audiovisual material. Otherwise:</p>
+  <h2><?php print t('Uw zoekopdracht leverde geen resultaten op.');?></h2>
+  <p>Probeer het volgende:</p>
   <?php print search_help('search#noresults', drupal_help_arg()); ?>
 <?php endif; ?>

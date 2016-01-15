@@ -16,6 +16,7 @@
  * Return a themed breadcrumb trail. (Taken from Zen)
  *
  * http://api.drupal.org/api/drupal/modules--system--system.api.php/function/hook_menu_breadcrumb_alter/7
+ * if ($breadcrumb[0]['href'] == '<front>') { $breadcrumb[0]['title'] = 'spanjestrijders'; }
  * en ook breadcrumb op home
  *
  * @param $variables

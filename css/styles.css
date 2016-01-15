@@ -1,0 +1,663 @@
+/* This file will hold the main styles for your website. */
+
+/*
+wit     ffffff  achtergrond
+zwart   000000  body tekst
+grijs   666666  tekst
+magenta A5007D links
+blauw   50739B titels, footer
+dblauw  32557D actieve titels
+lblauw  EDF1F5 dropdownmenu
+oblauw  000A1E overlay (90% dekkend)
+paars   A078A0 zoekkleur
+dpaars  8C648C actieve zoekkleur
+lpaars  ECE4EC zoekvlak
+beige   B48C8C browsekleur
+dbeige  8C6464 actieve browsekleur
+lbeige  F0E8E8 browsevlak
+oranje  FF6E00 store links en titels
+loranje FFE2CC store vlakken
+
+vlag
+rood	9d2e1d
+geel	e7b217
+paars	550c5b
+*/
+
+/* General */
+
+body {
+  xxxbackground-image:url('../images/bwsa-background.jpg');
+  xxxbackground-repeat:repeat;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 15px; 
+  line-height: 20px;
+  color: #000000;
+ 
+}
+
+
+.breadcrumb,
+.block-iish-blocks,
+.block-menu-block,
+.block-book-navigation,
+.read-more {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+
+#page {
+  margin-top: 10px;
+}
+
+.zone {
+  xxxbackground: white;
+}
+
+.container-12 .grid-12 {
+    margin-left: -5px;
+}
+
+h1, h2, h3, h4, h5, h6,
+h2.block-title {
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  color: #550c5b;
+}
+
+.front #page-title {
+  display: block;
+}
+
+h2.block-title a:hover {
+  color: #550c5b;
+  margin: 30px 0px 5px 0px;
+}
+
+h2.block-title {
+  color: #550c5b;
+  margin: 30px 0px 5px 0px;
+}
+
+h1.site-name {
+	font-size: 36px;
+    padding-left: 10px;
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-top: 10px;
+	margin-bottom: 0;
+    line-height: 1em;
+	font-family: Georgia,Times New Roman,serif;
+	letter-spacing: 0px;
+}
+
+h1.site-name a:link, h1.site-name a:visited {
+    color: #936090;
+    text-decoration: none;
+}
+
+h2 {
+  	font: 24px Georgia, "Times New Roman", Times, serif;
+  	color: #550c5b;
+}
+
+h3 {
+  	font: 18px Georgia, "Times New Roman", Times, serif;
+  	color: #550c5b;
+}
+
+.site-slogan {
+  color: #936090;
+}
+
+a:link, a:visited {
+    color: #9d2e1d;
+}
+
+#zone-branding {
+  margin-bottom: 15px;
+}
+
+.branding-data .logo-img {
+    margin-left: 0;
+}
+
+.logo-img {
+	margin-top: 15px;
+}
+
+/* menu */
+
+#zone-menu {
+  background-color: #e7e7e7;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+	text-transform: lowercase;
+}
+
+ul.nice-menu-down li {
+background-color: #e7e7e7;
+border-top: none;
+}
+
+ul.nice-menu li {
+padding-right: 5px;
+border: none;
+}
+
+#zone-menu a:link,
+#zone-menu a:visited {
+	color: #000;
+text-decoration: none;
+}
+#zone-menu a:hover {
+  color: #A5007D;
+text-decoration: none;
+}
+
+.menu ul.menu li {
+  background-image: url(../images/plus-blue.png);
+}
+.menu ul.menu ul.menu li {
+  background-image: url(../images/plus-blue.png);
+}
+
+/* Footer */
+
+#zone-footer,
+#zone-footer a,
+#zone-footer a:hover,
+#zone-footer h2 {
+  color: #000;
+}
+
+#zone-footer {
+  background-color: #e7e7e7;
+  font: 11px Georgia, "Times New Roman", Times, serif;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  height: 60px;
+  padding-top: 10px;
+}
+
+#zone-footer #block-block-4, #zone-footer #block-block-8 {
+    font-style:normal;
+}
+
+#region-footer-first {
+	vertical-align:top
+	}
+
+/* Search and browse */
+
+.block-iish-blocks-search,
+.block-iish-blocks-search-small {
+	color: #A078A0;
+}
+.block-iish-blocks-search .block-title,
+.block-iish-blocks-search-small .block-title {
+	color: #A078A0;
+	border-color: #A078A0;
+}
+.block-iish-blocks-search .content,
+.block-iish-blocks-search-small .content {
+  border-color: #A078A0;
+	background-color: #ECE4EC;
+}
+.block-iish-blocks-browse,
+.block-iish-blocks-browse-small {
+	color: #B48C8C;
+}
+.block-iish-blocks-browse .block-title,
+.block-iish-blocks-browse-small .block-title {
+	color: #B48C8C;
+	border-color: #B48C8C;
+}
+.block-iish-blocks-browse .content,
+.block-iish-blocks-browse-small .content {
+  border-color: #B48C8C;
+	background-color: #F0E8E8;
+}
+
+.block-iish-blocks-browse select,
+.block-iish-blocks-browse-small select {
+  background-image: url(../images/plus-brown.png);
+  color: #B48C8C;
+}
+.block-iish-blocks-search input[type="submit"],
+.block-iish-blocks-search-small input[type="submit"] {
+  background: #A078A0;
+  color: #fff;
+}
+.views-exposed-form input[type="submit"] {
+  background: #B48C8C;
+  color: #fff;
+}
+.block-iish-blocks-search input[type="text"],
+.block-iish-blocks-search-small input[type="text"] {
+  background-image: url(../images/hooks-small.png);
+}
+.block-iish-blocks-search #search-hook-left,
+.block-iish-blocks-search-small #search-hook-left {
+  background-image: url(../images/hook-small-left.png);
+}
+.block-iish-blocks-search #search-hook-right,
+.block-iish-blocks-search-small #search-hook-right {
+  background-image: url(../images/hook-small-right.png);
+}
+
+.browse-menu li.browse-leaf { 
+  background-image: url("../images/browse-bg.png");
+}
+.browse-menu li.browse-leaf.open { 
+  color: #fff;
+  background-color: #B48C8C;
+}
+.browse-menu .browse-menu-content { 
+  border-color: #B48C8C;
+}
+.browse-menu .browse-menu-content a:link,
+.browse-menu .browse-menu-content a:visited { 
+  color: #B48C8C;
+}
+.browse-menu .browse-menu-content a:hover { 
+  color: #A5007D;
+}
+
+.iish-block-search .search-catalogue a {
+  color: #A078A0;
+}
+
+/* News and events */
+
+.view-news .views-field-view-node a,
+.view-events .views-field-view-node a {
+  color: #666666;
+}
+.view-news .views-field-title a:hover,
+.view-news .views-field-view-node a:hover,
+.view-events .views-field-title a:hover,
+.view-events .views-field-view-node a:hover {
+  color: #A5007D;
+}
+
+.node-readmore a:link,
+.node-readmore a:visited,
+.more-link a:link,
+.more-link a:visited,
+.views-field-view-node .read-more,
+.views-field-view-node .read-more a:link,
+.views-field-view-node .read-more a:visited {
+  color: #A5007D;
+}
+
+/* Slideshow */
+
+.views_slideshow_slide {
+  background-color: #eee;
+}
+.views-slideshow-controls-bottom {
+  color: #fff;
+}
+.views-slideshow-controls-bottom .active {
+  color: #000;
+}
+
+.node-slideshow,
+.row-slideshow {
+  color: #fff;
+}
+.node-slideshow .red,
+.row-slideshow .red {
+	background-color: #ff3300;
+}
+.node-slideshow .green,
+.row-slideshow .green {
+	background-color: #66cc00;
+}
+.node-slideshow .brown,
+.row-slideshow .brown {
+	background-color: #996600;
+}
+.node-slideshow .pink,
+.row-slideshow .pink {
+	background-color: #ff6699;
+}
+.node-slideshow .blue,
+.row-slideshow .blue {
+	background-color: #66CBFF;
+}
+.node-slideshow .yellow,
+.row-slideshow .yellow {
+	background-color: #CCCD67;
+}
+
+.node-slideshow h2,
+.row-slideshow h2 {
+  color: #000;
+}
+.node-slideshow .read-more a,
+.row-slideshow .read-more a {
+  color: #000;
+}
+.node-slideshow .read-more .plus,
+.row-slideshow .read-more .plus {
+  color: #fff;
+}
+.node-slideshow .read-more a:hover,
+.row-slideshow .read-more a:hover {
+  color: #000;
+}
+
+
+/* Pager */
+
+ul.pager {
+}
+
+.item-list .pager li {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* Views results */
+
+.view-filters {
+  background-color: #F0E8E8;
+  border-color: #B48C8C;
+}
+.view-filters label {
+  color: #B48C8C;
+}
+.view-filters select {
+  color: #B48C8C;
+}
+.view-filters select option[selected="selected"] {
+  background-color: #B48C8C;
+  color: #fff;
+}
+
+.view-browse-taxonomy-terms .view-header {
+  color: #B48C8C;
+}
+
+#block-views-geboren-dood-vandaag-block {
+  margin-bottom: 10px;
+}
+
+
+/* Search results */
+
+.page-search h1 {
+  color: #550c5b;
+}
+
+.page-search .content h2 {
+    border: 0 none;
+    font: 20px Arial,Helvetica,sans-serif;
+    margin-top: 15px;
+}
+
+.page-search #search-form {
+  color: #9360900;
+  border-color: #936090;
+  background-color: #e7e7e7;
+}
+.search-form input[type="submit"] {
+  background: #936090;
+  color: #fff;
+font-size: 16px;
+text-shadow: none;	
+}
+
+.search-form #edit-advanced a:link,
+.search-form #edit-advanced a:visited {
+  color: #990000;
+}
+
+.page-search #search-form .form-item label {
+display: none;
+}
+
+.page-search #search-form .form-item input {
+width: 400px;
+margin: 20px 5px 20px 5px;
+font-size: 15px;
+}
+
+
+
+
+/* Colorbox */
+
+#cboxTitle {
+  background-color: #fff;
+}
+#cboxOverlay {
+  background-color: #000A1E;
+}
+
+/* mvh */
+
+.breadcrumb,
+.menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+sup {
+	font-size: 9px;
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
+
+.view .views-field-title,
+#block-menu-block-1 {
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#block-search-form {
+	margin-bottom: 15px; 
+	margin-top: 45px;
+}
+
+#region-content {
+	width: 500px;
+  	margin-top: 25px;
+}
+
+#region-sidebar-first.grid-2 {
+	margin-top: 17px;
+  	margin-top: 25px;	
+}
+
+#region-sidebar-second {
+	width: 260px;
+  	margin-top: 25px;
+}
+
+div.field-name-field-intro {
+	font-weight: bold;
+}
+
+
+.node-bio div.field-name-field-voornamen {
+	float: left;
+	display: inline;
+	padding-right: 3px;
+	font-weight: bold;
+}
+
+.node-bio div.field-name-field-tussenvoegsel {
+	float: left;
+	display: inline;
+	padding-right: 3px;
+	font-weight: bold;
+}
+
+
+.node-bio div.field-name-field-achternaam {
+	float: left;
+	display: inline;
+	font-weight: bold;
+}
+
+.label-geboren {
+	display: inline;
+	clear: left;
+	float: left;
+} 
+
+.label-geboren .label {
+	float: left;
+	display: inline;
+	font-weight: bold;
+	padding-right: 3px;		
+}
+	
+.node-bio div.field-name-field-geboorteplaats {
+	float: left;
+	display: inline;
+	padding-right: 3px;	
+}
+
+.node-bio div.field-name-field-geboortedatum,
+.node-bio div.field-name-field-geboortedatum-onvolledig {
+	float: left;
+	display: inline;
+}
+
+.label-overleden {
+	display: inline;
+	clear: left;
+	float: left;
+} 
+
+.label-overleden .label {
+	float: left;
+	display: inline;
+	font-weight: bold;
+	padding-right: 3px;		
+}
+	
+.node-bio div.field-name-field-sterfplaats {
+	float: left;
+	display: inline;
+	padding-right: 3px;
+}
+
+.node-bio div.field-name-field-sterfdatum,
+.node-bio div.field-name-field-sterfdatum-onvolledig {
+	float: left;
+	display: inline;
+}
+
+.node-bio div.field-name-body {
+	border-bottom-width: 1px;
+	xxxborder-bottom-color:#990000;
+	xxxborder-bottom-style: solid;
+	padding-top: 8px;
+	clear: left;
+}
+
+.node-bio div.field-name-field-laatste-gewijzigd {
+	padding-bottom: 16px;
+    padding-top: 8px;
+	border-bottom: 1px solid #550c5b;
+    clear: both;
+	font-size: 80%;
+}
+
+xxxdiv.field-name-field-sekse::before {
+    content: "Overige gegevens";
+	padding-bottom: 18px;
+    font-weight: bold;
+	display: block;
+} 
+
+.node-bio div.field-name-field-sekse {
+	padding-top: 8px;
+	clear: both;
+}
+
+.node-bio div.field-name-field-auteur {
+	padding-top: 8px;
+}
+
+div.field-name-field-portret {
+	float: right;
+	margin-left: 8px;
+}
+
+.field-label {
+font-weight: bold;
+}
+
+.view-bios-alfabet .views-row {
+    clear: both;
+}
+
+.view-bios-alfabet .views-row .views-field-field-portret {
+    float: left;
+    margin-right: 10px;
+    min-height: 35px;
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.attachment-before {
+	display:none;
+}
+
+ol {
+    list-style-position: outside;    
+margin-left: 20px;
+}
+
+.item-list ul li {
+	margin: 0;
+}
+
+#block-views-bios-alfabet-block-1 {
+margin-top: 45px;
+}
+
+.view-leeftijden h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#translate-this {
+	margin-left: 120px;
+    margin-top: 8px;
+}
+
+input {
+margin-top: 5px;
+}
+
+.views-field-field-verantwoording-portret {
+	width: 220px;
+	font-size: 11px; 
+  line-height: 15px; 
+}
+
+/* flippy */
+
+.region-content ul.flippy {
+	margin: 0;
+	padding: 0;
+}
+	
+ul.flippy li.prev {
+	float:left;
+	padding: 0 0 0 10;
+	
+}
+
+ul.flippy li.next {
+	float:right;
+	padding: 0 0 0 10;
+}
+
+ul.flippy li a:link, ul.flippy li a:visited {
+  text-decoration: none;
+}
