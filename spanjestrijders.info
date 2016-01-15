@@ -5,6 +5,7 @@ engine = phptemplate
 screenshot = screenshot.png
 base theme = omega
 version = "7.x-1.0"
+stylesheets[all][] = styles.css
 
 ; REQUIRED CORE REGIONS
 
@@ -60,7 +61,7 @@ css[mobile.css][options][weight] = -89
 
 css[styles.css][name] = Main Styles
 css[styles.css][description] = Your main custom CSS file.
-css[styles.css][options][weight] = -30
+css[styles.css][options][weight] = 10
 
 ; THEME SETTINGS (DEFAULTS)
 
