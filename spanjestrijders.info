@@ -60,7 +60,7 @@ css[mobile.css][options][weight] = -89
 
 css[styles.css][name] = Main Styles
 css[styles.css][description] = Your main custom CSS file.
-css[styles.css][options][weight] = 10
+css[styles.css][options][weight] = -30
 
 ; THEME SETTINGS (DEFAULTS)
 
